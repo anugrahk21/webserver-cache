@@ -1,0 +1,48 @@
+Sun 04 Dec 2022 02:51:21 PM EST
+Running cachesize experiment. Output goes to plot-cachesize.out
+client: client.c:66: client_print: Assertion `orig_csum == csum' failed.
+client: client.c:66: client_print: Assertion `orig_csum == csum' failed.
+client: client.c:66: client_print: Assertion `orig_csum == csum' failed.
+client: client.c:66: client_print: Assertion `orig_csum == csum' failed.
+client: client.c:66: client_print: Assertion `orig_csum == csum' failed.
+./run-one-experiment: line 57: 710014 Segmentation fault      ./server $PORT $NR_THREADS $MAX_REQUESTS $CACHE_SIZE &> server.log
+./run-one-experiment: line 57: 710026 Aborted                 ./client -t $HOST $PORT 100 10 $FILESET >> run.out
+error: run 1: ./client -t 127.0.0.1 26824 100 10 fileset_dir.idx
+forcing server shutdown
+client: client.c:66: client_print: Assertion `orig_csum == csum' failed.
+client: client.c:66: client_print: Assertion `orig_csum == csum' failed.
+client: client.c:66: client_print: Assertion `orig_csum == csum' failed.
+client: client.c:66: client_print: Assertion `orig_csum == csum' failed.
+./run-one-experiment: line 57: 710058 Segmentation fault      ./server $PORT $NR_THREADS $MAX_REQUESTS $CACHE_SIZE &> server.log
+./run-one-experiment: line 57: 710070 Aborted                 ./client -t $HOST $PORT 100 10 $FILESET >> run.out
+error: run 1: ./client -t 127.0.0.1 26824 100 10 fileset_dir.idx
+forcing server shutdown
+client: client.c:66: client_print: Assertion `orig_csum == csum' failed.
+client: client.c:66: client_print: Assertion `orig_csum == csum' failed.
+client: client.c:66: client_print: Assertion `orig_csum == csum' failed.
+Rio_readlineb error: Connection reset by peer
+client: client.c:66: client_print: Assertion `orig_csum == csum' failed.
+./run-one-experiment: line 57: 710102 Segmentation fault      ./server $PORT $NR_THREADS $MAX_REQUESTS $CACHE_SIZE &> server.log
+error: run 1: ./client -t 127.0.0.1 26824 100 10 fileset_dir.idx
+forcing server shutdown
+Rio_readlineb error: Connection reset by peer
+client: client.c:66: client_print: Assertion `orig_csum == csum' failed.
+client: client.c:66: client_print: Assertion `orig_csum == csum' failed.
+./run-one-experiment: line 57: 710159 Segmentation fault      ./server $PORT $NR_THREADS $MAX_REQUESTS $CACHE_SIZE &> server.log
+error: run 1: ./client -t 127.0.0.1 26824 100 10 fileset_dir.idx
+forcing server shutdown
+client: client.c:66: client_print: Assertion `orig_csum == csum' failed.
+client: client.c:66: client_print: Assertion `orig_csum == csum' failed.
+client: client.c:66: client_print: Assertion `orig_csum == csum' failed.
+./run-one-experiment: line 57: 710202 Segmentation fault      ./server $PORT $NR_THREADS $MAX_REQUESTS $CACHE_SIZE &> server.log
+./run-one-experiment: line 57: 710214 Aborted                 ./client -t $HOST $PORT 100 10 $FILESET >> run.out
+error: run 1: ./client -t 127.0.0.1 26824 100 10 fileset_dir.idx
+forcing server shutdown
+client: client.c:66: client_print: Assertion `orig_csum == csum' failed.
+client: client.c:66: client_print: Assertion `orig_csum == csum' failed.
+client: client.c:66: client_print: Assertion `orig_csum == csum' failed.
+./run-one-experiment: line 57: 710247 Segmentation fault      ./server $PORT $NR_THREADS $MAX_REQUESTS $CACHE_SIZE &> server.log
+./run-one-experiment: line 57: 710258 Aborted                 ./client -t $HOST $PORT 100 10 $FILESET >> run.out
+error: run 1: ./client -t 127.0.0.1 26824 100 10 fileset_dir.idx
+forcing server shutdown
+Cachesize experiment done.
